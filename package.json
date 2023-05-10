@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "nodemon src/server.js",
+    "dev": "nodemon src/server.js",
     "start:prod": ""
   },
   "keywords": [],
@@ -28,6 +28,7 @@
     "xss-clean": "^0.1.1"
   },
   "devDependencies": {
+    "nodemon": "^2.0.22",
     "sequelize-cli": "^6.6.0"
   }
 }
